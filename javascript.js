@@ -11,6 +11,7 @@ var string = "Hello World";
 var undef = // Variable without a value. Value is undefined, type is undefined;
 
 // Write an if statement that returns true.
+
 var legalAge = 18;
 var canIbuyalcohol = function (myAge) {
 if (myAge >= legalAge) {
@@ -36,6 +37,7 @@ for (var i=0; i<myArray.length; i++) {
   emptyArray.push(myArray);
 }
 
+//Javascript Exercises #2
 // Write a function that returns your first name. Call it.
 
 function callFirstname(Antonella) {
