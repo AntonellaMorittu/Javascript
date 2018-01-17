@@ -35,3 +35,21 @@ emptyArray = []
 for (var i=0; i<myArray.length; i++) {
   emptyArray.push(myArray);
 }
+
+// Write a function that returns your first name. Call it.
+
+function callFirstname(Antonella) {
+  return Antonella;
+}
+
+callFirstname("Antonella");
+
+// Write a new function that takes your name as an input.
+// The function should return your first name, plus your last name, as one string.
+// (Hint: strings can be combined with a +)
+
+function callFullname(firstName, familyName) {
+  return "My full name is " + firstName + ' ' + familyName;
+}
+
+callFullname("Antonella", "Morittu");
